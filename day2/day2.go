@@ -39,7 +39,7 @@ func part2(round turn) {
 }
 
 func getTxt() {
-	file, err := os.Open("txt/tournament.txt")
+	file, err := os.Open("input")
 	if err != nil {
 		log.Fatal(err)
 	}
